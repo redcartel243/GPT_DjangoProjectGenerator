@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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"
+openai.api_key = "YOUR-API-KEY"
 
 def gpt_3_5_assistant(prompt, template=None, max_response_tokens=100, total_tokens=4096):
     response_text = ""
